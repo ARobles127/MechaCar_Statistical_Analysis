@@ -20,3 +20,21 @@ Yes,  the p-value: 5.35e-11, which is much smaller than the expected  0.05% valu
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 Yes, in accordance with the results, the Multiple R-squared:  0.7149 value represents 71% of the variability of the dependent variable (mpg), which means that in a simple linear regression model, the higher the correlation is between two variables, the more that one variable can explain/predict the value of the other.
+
+
+
+## Summary Statistics on Suspension Coils
+
+The second part of the project is to analyze the Suspension_Coil data set that  contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. To accomplish our tasks we will create a summary statistics table to show the suspension coil’s PSI continuous variable across all manufacturing lots, and the PSI metrics for each lot: mean, median, variance, and standard deviation. Refer to the two tables below to see the results.
+
+
+![total_summary.png]()
+
+
+![lot_summary.png]()
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?  Looking at the results from our tables above, we can conclude that the variance from our lot_summary value is 62.29356, which is within  the specified value and does not exceed the 100 pounds per square inch variance. However, when we look at each single lot, we can see each value and conclude  that Lots 1 and 2 are within this value, but Lot 3  does not meet the requirement.   
+
+
+
+
